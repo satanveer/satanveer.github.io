@@ -413,7 +413,8 @@ body {
   }
 
   .third-section{
-    height: 95vh;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
   }
@@ -421,7 +422,7 @@ body {
     margin-top: 5vh;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     
   }
   .education{
@@ -438,9 +439,9 @@ body {
   }
   .certification{
     width: 70vw;
-    height: 30vh;
+    height: 35vh;
     font-size: 13px;   
-    justify-content: space-between; 
+    margin: 0;
   }
   .certification ul {
     justify-content: space-between;
