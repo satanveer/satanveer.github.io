@@ -378,7 +378,7 @@ body {
   opacity: 1;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
   #webdevimg{
    height: 0;
    width: 0;
@@ -438,9 +438,15 @@ body {
   }
   .certification{
     width: 70vw;
-    height: 20vh;
+    height: 28vh;
     font-size: 10px;
     
+  }
+  .certification ul {
+
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
   }
   .slider{
     height: 0;
