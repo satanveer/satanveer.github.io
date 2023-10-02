@@ -378,7 +378,7 @@ body {
   opacity: 1;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
   #webdevimg{
    height: 0;
    width: 0;
