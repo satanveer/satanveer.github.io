@@ -413,7 +413,7 @@ body {
   }
 
   .third-section{
-    height: 85vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
   }
@@ -438,12 +438,12 @@ body {
   }
   .certification{
     width: 70vw;
-    height: 28vh;
-    font-size: 10px;
-    
+    height: 30vh;
+    font-size: 13px;   
+    justify-content: space-between; 
   }
   .certification ul {
-
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
     list-style-type: none;
